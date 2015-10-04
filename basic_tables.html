@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!--Inserta tu codigo aqui-->    
+    <div id="container">
+      <!-- header -->
+      <header class="header black-bg">
+        <div class="sidebar-toggle-box">
+          <i class="fa fa-bars tooltips"></i>
+        </div>
+        <a href="dashboard.html" class="logo">
+          <p class="hidden-xs">ADVENTURE TIME: DASHBOARD</p>
+          <p class="visible-xs">ADV.TIME</p>
+        </a>
+        <div class="top-menu">
+          <ul class="nav pull-right top-menu">
+            <li>
+              <a href="login.html" class="logout">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <!-- menu desplegable -->
+      <div id="sidebar"  class="nav-collapse ">
+        <ul class="sidebar-menu">
+          <p class="text-center">
+            <a href="dashboard.html">
+              <img src="img/profile_avatar.png" class="img-circle" width="60">
+            </a>
+          </p>
+          <h5 class="text-center">Bonnibel Bubblegum</h5>
+          <li class="sub-menu">
+            <a href="Dashboard.html">
+              <i class="fa fa-dashboard"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li class="sub-menu">
+              <a href="buttons.html">
+                <i class="fa fa-desktop"></i>
+                <span>Buttons</span>
+              </a>
+            </li>
+            <li class="sub-menu">
+              <a href="progress.html">
+                <i class="fa fa-desktop"></i>
+                <span>Progress Bars</span>
+              </a>
+            </li>            
+            <li class="sub-menu">
+              <a href="form_component.html">
+                <i class="fa fa-cogs"></i>
+                <span>Forms</span>
+              </a>
+            </li>
+            <li class="sub-menu">
+              <a class="active" href="basic_tables.html">
+                <i class="fa fa-th"></i>
+                <span>Data Tables</span>
+              </a>
+            </li>            
+            <li class="sub-menu">
+              <a href="gallery.html">
+                <i class="fa fa-tasks"></i>
+                <span>Gallery</span>
+              </a>
+            </li>
+            <li class="sub-menu">
+              <a href="login.html">
+                <i class="fa fa-book"></i>
+                <span>Login Page</span>
+              </a>
+            </li> 
+        </ul>
+      </div> 
+      <!-- contenido principal-->
+      <div id="main-content">
+        <section class="wrapper">
+          <h3><i class="fa fa-angle-right"></i> Basic Table Examples</h3>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="content-panel">
+                <h4><i class="fa fa-angle-right"></i> Basic Table</h4>
+                <hr>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Username</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Larry</td>
+                      <td>the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col-xs-12 mt">
+              <div class="content-panel">
+                <h4><i class="fa fa-angle-right"></i> Hover Table</h4>
+                <hr>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Username</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Simon</td>
+                      <td>Mosa</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col-xs-12 mt">
+                <div class="content-panel">
+                  <h4><i class="fa fa-angle-right"></i> Advanced Table</h4>
+                  <hr>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th><i class="fa fa-bullhorn"></i>
+                          <span>Company</span>
+                        </th>
+                        <th><i class="fa fa-question-circle"></i>
+                          <span>Description</span>
+                        </th>
+                        <th><i class="fa fa-bookmark"></i>
+                          <span>Profit</span>
+                        </th>
+                        <th><i class="fa fa-pencil-square-o"></i>
+                          <span>Status</span>
+                        </th>
+                        <th> </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a href="">Company Ltd</a></td>
+                        <td>Lorem ipsum dolor </td>
+                        <td>12000.00$</td>
+                        <td><span class="label label-info">Due</span></td>
+                        <td>                       
+                          <button type="button" class="btn btn-success btn-xs">
+                            <i class="fa fa-check"></i>
+                          </button>
+                          <button type="button" class="btn btn-primary btn-xs">
+                            <i class="fa fa-pencil"></i>                            
+                          </button>
+                          <button type="button" class="btn btn-danger btn-xs">
+                            <i class="fa fa-trash-o"></i>
+                          </button>
+                        </td> 
+                      </tr>
+                      <tr>
+                        <td><a href="">Dashgum co</a></td>
+                        <td>Lorem ipsum dolor </td>
+                        <td>17900.00$</td>
+                        <td><span class="label label-warning">Due</span></td>
+                        <td>                       
+                          <button type="button" class="btn btn-success btn-xs">
+                            <i class="fa fa-check"></i>
+                          </button>
+                          <button type="button" class="btn btn-primary btn-xs">
+                            <i class="fa fa-pencil"></i>                            
+                          </button>
+                          <button type="button" class="btn btn-danger btn-xs">
+                            <i class="fa fa-trash-o"></i>
+                          </button>
+                        </td> 
+                      </tr>
+                      <tr>
+                        <td><a href="">Another co</a></td>
+                        <td>Lorem ipsum dolor </td>
+                        <td>14400.00$</td>
+                        <td><span class="label label-success">Paid</span></td>
+                        <td>                       
+                          <button type="button" class="btn btn-success btn-xs">
+                            <i class="fa fa-check"></i>
+                          </button>
+                          <button type="button" class="btn btn-primary btn-xs">
+                            <i class="fa fa-pencil"></i>                            
+                          </button>
+                          <button type="button" class="btn btn-danger btn-xs">
+                            <i class="fa fa-trash-o"></i>
+                          </button>
+                        </td> 
+                      </tr>
+                      <tr>
+                        <td><a href="">Dashegun ext</a></td>
+                        <td>Lorem ipsum dolor </td>
+                        <td>22000.50$</td>
+                        <td><span class="label label-success">Paid</span></td>
+                        <td>                       
+                          <button type="button" class="btn btn-success btn-xs">
+                            <i class="fa fa-check"></i>
+                          </button>
+                          <button type="button" class="btn btn-primary btn-xs">
+                            <i class="fa fa-pencil"></i>                            
+                          </button>
+                          <button type="button" class="btn btn-danger btn-xs">
+                            <i class="fa fa-trash-o"></i>
+                          </button>
+                        </td> 
+                      </tr>
+                      <tr>
+                        <td><a href="">Total Ltd</a></td>
+                        <td>Lorem ipsum dolor </td>
+                        <td>12200.00$</td>
+                        <td><span class="label label-warning">Due</span></td>
+                        <td>                       
+                          <button type="button" class="btn btn-success btn-xs">
+                            <i class="fa fa-check"></i>
+                          </button>
+                          <button type="button" class="btn btn-primary btn-xs">
+                            <i class="fa fa-pencil"></i>                            
+                          </button>
+                          <button type="button" class="btn btn-danger btn-xs">
+                            <i class="fa fa-trash-o"></i>
+                          </button>
+                        </td> 
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>  
+          </div>         
+         
+        </section>
+      </div>
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>
